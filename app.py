@@ -36,8 +36,6 @@ from lifelines import WeibullAFTFitter
 from lifetimes import BetaGeoFitter, GammaGammaFitter
 from lifetimes.utils import summary_data_from_transaction_data
 import matplotlib.pyplot as plt
-import os
-os.environ["STREAMLIT_USE_ARROW"] = "0"   # désactive PyArrow
 
 
 SEED = 42
